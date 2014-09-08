@@ -1,7 +1,20 @@
-div.container-fluid {
-    margin-right: 5%;
-    margin-left: 2%;
+ul.nav li {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    border-radius: 15%;
 }
-.logo img {
-    width: 20%;
+ul.nav li:nth-child(even) {
+    background-color: #002666;
+}
+ul.nav li:nth-child(odd) {
+    background-color: #CC0A48;
+}
+ul.nav li a {
+    color: #fff;
+    text-align: center;
+}
+ul.nav li:hover {
+    opacity: .5;
 }
