@@ -28,7 +28,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-PRODUCTION = True
+PRODUCTION = False
 
 
 # Application definition

@@ -3,3 +3,4 @@
 *.swo
 /venv/
 project.db
+media/cms_page_media/
