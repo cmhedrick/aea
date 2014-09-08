@@ -28,6 +28,8 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+PRODUCTION = True
+
 
 # Application definition
 
@@ -179,3 +181,6 @@ DATABASES = {
     'default':
         {'ENGINE': 'django.db.backends.sqlite3', 'NAME': 'project.db', 'HOST': 'localhost', 'USER': '', 'PASSWORD': '', 'PORT': ''}
 }
+
+if PRODUCTION:
+    from settings_pro import *
