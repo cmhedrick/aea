@@ -28,7 +28,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-PRODUCTION = False
+PRODUCTION = True
 
 
 # Application definition
@@ -140,6 +140,7 @@ INSTALLED_APPS = (
     'djangocms_teaser',
     'djangocms_video',
     'reversion',
+    'djangocms_snippet',
     'aeacms'
 )
 
