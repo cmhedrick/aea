@@ -2,7 +2,7 @@ ul.nav li {
     text-align: center;
     margin-left: 1%;
     margin-right: 1%;
-    padding: 1%;
+    padding: 18%;
     border-radius: 15%;
 }
 ul.nav li:nth-child(even) {
@@ -38,14 +38,45 @@ footer div {
     margin-bottom: 5%;
 }
 footer {
-    position: fixed;
-    bottom: 0%;
-    width: 100%
+    width: 100%;
 }
 .contact {
     left: 45%;
-    position: fixed;
+    position: absolute;
 }
 .contact pre {
     text-align: center;
+}
+#content {
+    margin-bottom: 30%;
+    clear: left;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+#aealogo {
+    width: 20%;
+}
+header > * {
+    display: inline-block;
+    float: left;
+}
+header {
+    min-height: 150px;
+}
+ul.nav {
+    margin-left: 5%;
+}
+/*template 1*/
+.left_cont {
+    width: 70%;
+}
+.right_links {
+    width: 20%;
+    margin-left: 10%;
+}
+#content .left_cont, #content .right_links {
+    display: inline-block;
+    float: left;
 }

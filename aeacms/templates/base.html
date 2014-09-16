@@ -20,10 +20,13 @@
 </head>
 <body>
 {% cms_toolbar %}
-<div style="width: 940px; margin:0 auto">
-    <ul class="nav">
-        {% show_menu 0 100 100 100 %}
-    </ul>
+<header>
+  <img id="aealogo" src="/static/images/Logo_new.png">
+  <ul class="nav">
+    {% show_menu 0 100 100 100 %}
+  </ul>
+</header>
+<div id="content" style="width: 940px;">
     {% block content %}
     {% endblock content %}
 </div>

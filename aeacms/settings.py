@@ -28,8 +28,12 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-PRODUCTION = True
+PRODUCTION = False
 
+import mimetypes
+
+mimetypes.add_type("image/svg+xml", ".svg", True)
+mimetypes.add_type("image/svg+xml", ".svgz", True)
 
 # Application definition
 
@@ -171,6 +175,7 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
+    ('template_1.html', 'Content and Right Links'),
     ('sidebar_right.html', 'Sidebar Right')
 )
 
