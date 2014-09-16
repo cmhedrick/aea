@@ -26,6 +26,7 @@ ul.nav li:hover {
     min-width: 100px;
     padding-left: 10%;
 }
+/*Footer*/
 footer div {
     display: inline-block;
 }
@@ -40,4 +41,11 @@ footer {
     position: fixed;
     bottom: 0%;
     width: 100%
+}
+.contact {
+    left: 45%;
+    position: fixed;
+}
+.contact pre {
+    text-align: center;
 }
