@@ -5,4 +5,4 @@
 project.db
 media/cms_page_media/
 aeacms/settings_pro.py
-static/
+./static/

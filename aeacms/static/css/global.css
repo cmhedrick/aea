@@ -21,3 +21,23 @@ ul.nav li:hover {
 .info.logo img {
     width: 90%;
 }
+.nwdlogo {
+    width: 75%;
+    min-width: 100px;
+    padding-left: 10%;
+}
+footer div {
+    display: inline-block;
+}
+.cblock {
+    float: right;
+    width: 15%;
+}
+.cblock p {
+    margin-bottom: 5%;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%
+}
