@@ -17,6 +17,7 @@ djangocms-inherit==0.0.2
 djangocms-installer==0.5.4
 djangocms-link==1.4.0
 djangocms-picture==0.0.4
+djangocms-snippet==1.1
 djangocms-style==1.4
 djangocms-teaser==0.0.2
 djangocms-text-ckeditor==2.3.0
