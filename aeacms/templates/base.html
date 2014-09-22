@@ -22,13 +22,15 @@
 {% cms_toolbar %}
 <header>
   <img id="aealogo" src="/static/images/Logo_new.png">
-  <ul class="nav">
-    {% show_menu 0 100 100 100 %}
-  </ul>
 </header>
 <div id="content">
     {% block content %}
     {% endblock content %}
+  <div class="links">
+    <ul class="nav">
+      {% show_menu 0 100 100 100 %}
+    </ul>
+  </div>
 </div>
 <footer>
   <hr>

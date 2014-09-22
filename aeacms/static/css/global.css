@@ -1,14 +1,16 @@
-ul.nav li {
-    text-align: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 2% 5% 2% 5%;
+ul.nav li a {
+    /*text-align: center;*/
+    /*margin-left: 1%;*/
+    /*margin-right: 1%;*/
+    padding: 4%;
+    width: 100%;
     border-radius: 15%;
+    text-decoration: none;
 }
-ul.nav li:nth-child(even) {
+ul.nav li:nth-child(even) a {
     background-color: #002666;
 }
-ul.nav li:nth-child(odd) {
+ul.nav li:nth-child(odd) a {
     background-color: #CC0A48;
 }
 ul.nav li a {
@@ -38,6 +40,7 @@ footer div {
     margin-bottom: 5%;
 }
 footer {
+    display: block;
     width: 100%;
 }
 .contact {
@@ -53,7 +56,8 @@ footer {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 74%;
+    width: 100%;
+    display: block;
 }
 /*header*/
 #aealogo {
@@ -61,27 +65,27 @@ footer {
 }
 header > * {
     display: inline-block;
-    float: left;
+    margin-left: 5%;
 }
 header {
+    display: block;
     min-height: 150px;
 }
 ul.nav {
-    margin-left: 5%;
-    width: 50%;
+    width: 80%;
 }
 /*template 1*/
-.left_cont {
-    width: 70%;
+.cont {
+    width: 68%;
 }
-.right_links {
+.links {
     width: 20%;
-    margin-left: 10%;
-}
-#content .left_cont, #content .right_links {
-    display: inline-block;
     float: left;
+    margin-left: 5%;
 }
-.right_links a {
+#content .cont, #content .links {
+    display: inline-block;
+}
+.links a {
     display: block;
 }
