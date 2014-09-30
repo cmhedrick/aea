@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}This is my new project home page{% endblock title %}</title>
     <link rel="stylesheet" href="/static/css/global.css">
     {% block page_css %}
@@ -21,14 +22,15 @@
 <body>
 {% cms_toolbar %}
 <header>
-  <img id="aealogo" src="/static/images/Logo_new.png">
+  <a href="/"><img id="aealogo" src="/static/images/Logo_new.png"></a>
 </header>
 <div id="content">
     {% block content %}
     {% endblock content %}
   <div class="links">
     <ul class="nav">
-      {% show_menu 0 100 100 100 %}
+      <!--<li><a href="/">Home</a></li>-->
+      {% show_menu 0 100 0 1 %}
     </ul>
   </div>
 </div>
@@ -41,8 +43,8 @@ Falls Church, VA22041
 (703)379-1650</pre>
   </div>
   <div class="cblock">
-    <p>Created By,</p>
-    <a href="http://novawebcoop.org/en/cms/"><img class="nwdlogo" src="/static/images/nwd.png"></a>
+    <p>Created by</p>
+    <a href="http://novawebcoop.org/"><img class="nwdlogo" src="/static/images/nwd.png"></a>
   </div>
 </footer>
 {% render_block "js" %}
